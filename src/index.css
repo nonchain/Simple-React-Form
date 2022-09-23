@@ -22,6 +22,10 @@ body {
   @apply bg-blue-600 text-white
 }
 
+.input:invalid ~ span {
+  @apply block;
+}
+
 /*==================== EXTERNAL CSS ====================*/
 .transition-100 {
   transition: 0.1s;
