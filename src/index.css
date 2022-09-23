@@ -10,10 +10,16 @@
 
 body {
   height: 100vh;
+  background-color: #00c6ff;
   font-family: 'Nunito Sans', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/*==================== FORM CSS ====================*/
+.active-form {
+  @apply bg-blue-600 text-white
 }
 
 /*==================== EXTERNAL CSS ====================*/
