@@ -9,5 +9,20 @@
 }
 
 body {
+  height: 100vh;
   font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*==================== EXTERNAL CSS ====================*/
+.transition-100 {
+  transition: 0.1s;
+}
+.transition-200 {
+  transition: 0.2s;
+}
+.transition-300 {
+  transition: 0.3s;
 }
