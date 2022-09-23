@@ -18,9 +18,9 @@ const RegisterForm = () => {
                <Input placeholder='John' type='text' label='Forename' inputName='forename' id='forename' />
                <Input placeholder='Deco' type='text' label='Surname' inputName='surname' id='surname' /> 
             </div>
-            <Input placeholder='example@gamil.com' type='email' label='Email' inputName='email' id='email' />
-            <Input placeholder='At least 3 characters' type='text' label='Username' inputName='username' id='username' />
-            <Input placeholder='At least 8 characters' type='text' label='Password' inputName='password' id='password' />
+            <Input placeholder='example@gamil.com' type='email' label='Email' inputName='email' id='email' errorMessage='Please enter a valid email'/>
+            <Input placeholder='At least 3 characters' type='text' label='Username' inputName='username' id='username' errorMessage='Username must contains @'/>
+            <Input placeholder='At least 8 characters' type='text' label='Password' inputName='password' id='password' errorMessage='Password must be at least 8 characters'/>
          </div>
 
          <Button text='Register' type='submit' className={'mt-20'} />
