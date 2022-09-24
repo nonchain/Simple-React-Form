@@ -23,7 +23,7 @@ body {
 }
 
 .input:valid {
-  @apply border-green-500;
+  @apply border-green-500 bg-green-100;
 }
 .input:invalid[focused="true"] {
   @apply border-red-500;
