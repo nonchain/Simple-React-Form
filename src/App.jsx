@@ -17,10 +17,10 @@ function App() {
         <span className={`py-5 text-zinc-800 text-xl font-semibold flex items-center justify-center cursor-pointer ${!showLoginForm && 'active-form'}`} onClick={onShowFormHandler}>Register</span>
       </div>
       <div className='p-6 md:px-8'>
-        <div className={!showLoginForm && 'hidden'}>
+        <div className={!showLoginForm ? 'hidden' : 'block'}>
           <LoginForm />
         </div>
-        <div className={showLoginForm && 'hidden'}>
+        <div className={showLoginForm ? 'hidden' : 'block'}>
           <RegisterForm />
         </div>
       </div>
