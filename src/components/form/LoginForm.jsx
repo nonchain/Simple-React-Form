@@ -6,8 +6,9 @@ const LoginForm = () => {
    const onSubmitHandler = (event) => {
       event.preventDefault();
       const formData = new FormData(event.target);
-
-      console.log(Object.fromEntries(formData.entries()));
+      console.log(formData);
+      const {email, password} = Object.fromEntries(formData.entries());
+      alert(`${email} \n ${password}`);
    }
 
    return (
